@@ -27,22 +27,22 @@ Analisar o desempenho de vendas a partir de diferentes perspectivas, incluindo:
 
 ## 📊 Análises Realizadas
 
-As análises abaixo foram desenvolvidas em SQL com foco em responder perguntas comuns de negócio a partir dos dados de vendas:
+As análises abaixo foram desenvolvidas em SQL, com foco em responder perguntas de negócio a partir dos dados de vendas:
 
-- **Análise mensal do funil de vendas**  
-  Avaliação de leads, vendas, receita, taxa de conversão e ticket médio ao longo do tempo.
+- **[Análise mensal do funil de vendas](queries/query_1_funil_mensal.sql)**  
+  Consolidação mensal de leads, vendas, receita, taxa de conversão e ticket médio.
 
-- **Estados com maior número de vendas**  
-  Identificação das regiões com melhor desempenho comercial.
+- **[Estados com maior número de vendas](queries/query_2_vendas_por_estado.sql)**  
+  Identificação dos estados com melhor desempenho em vendas no período analisado.
 
-- **Marcas com maior volume de vendas**  
-  Análise das marcas mais vendidas no período.
+- **[Marcas com maior volume de vendas](queries/query_3_vendas_por_marca.sql)**  
+  Análise das marcas mais vendidas no mês.
 
-- **Lojas com melhor desempenho em vendas**  
+- **[Lojas com melhor desempenho em vendas](queries/query_4_vendas_por_loja.sql)**  
   Ranking das lojas com maior número de vendas.
 
-- **Comportamento de visitas ao longo da semana**  
-  Análise dos dias da semana com maior volume de acessos ao site.
+- **[Dias da semana com maior número de visitas](queries/query_5_visitas_por_dia_semana.sql)**  
+  Análise do comportamento de visitas ao site ao longo da semana.
 
 ---
 
@@ -58,3 +58,9 @@ Os resultados das queries foram exportados para o Excel, onde foi construído um
 ## ✅ Conclusão
 
 Este projeto permitiu consolidar conceitos de SQL aplicados à análise de dados, além de exercitar a organização de consultas, criação de métricas e interpretação dos resultados para apoio à tomada de decisão.
+
+## 📁 Organização do Repositório
+
+- `queries/` — consultas SQL utilizadas nas análises  
+- `dashboard/` — dashboard desenvolvido no Excel
+
