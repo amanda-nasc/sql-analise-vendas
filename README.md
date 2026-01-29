@@ -68,4 +68,3 @@ Os resultados das queries foram exportados para o Excel, onde foi construído um
  └── dashboard_excel.png
 
 README.md
-
