@@ -46,7 +46,7 @@ As análises abaixo foram desenvolvidas em SQL, com foco em responder perguntas 
 
 ---
 
-## 📈 Visualização dos Dados
+## 📈 Dashboard
 
 Os resultados das queries foram exportados para o Excel, onde foi construído um dashboard com gráficos e indicadores para facilitar a análise visual dos dados.
 
@@ -55,12 +55,17 @@ Os resultados das queries foram exportados para o Excel, onde foi construído um
 
 ---
 
-## ✅ Conclusão
+## 📂 Estrutura do Repositório
+```text
+📁 queries
+ ├── query_1_funil_mensal.sql
+ ├── query_2_vendas_por_estado.sql
+ ├── query_3_vendas_por_marca.sql
+ ├── query_4_vendas_por_loja.sql
+ ├── query_5_visitas_por_dia_semana.sql
 
-Este projeto permitiu consolidar conceitos de SQL aplicados à análise de dados, além de exercitar a organização de consultas, criação de métricas e interpretação dos resultados para apoio à tomada de decisão.
+📁 dashboard
+ └── dashboard_excel.png
 
-## 📁 Organização do Repositório
-
-- `queries/` — consultas SQL utilizadas nas análises  
-- `dashboard/` — dashboard desenvolvido no Excel
+README.md
 
